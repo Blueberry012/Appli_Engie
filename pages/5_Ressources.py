@@ -2,8 +2,8 @@ import pandas as pd
 import  matplotlib.pyplot as plt
 import streamlit as st
 
-df1 = pd.read_csv('data\pdl_1.csv')
-df2 = pd.read_csv('data\pdl_2.csv')
+df1 = pd.read_csv('data/pdl_1.csv')
+df2 = pd.read_csv('data/pdl_2.csv')
 
 st.title("Bases de données")
 
