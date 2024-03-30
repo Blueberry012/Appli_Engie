@@ -9,8 +9,8 @@ from contextlib import contextmanager, redirect_stdout
 from io import StringIO
 #pip install scikit-learn
 
-df1 = pd.read_csv('data\pdl_1.csv')
-df2 = pd.read_csv('data\pdl_2.csv')
+df1 = pd.read_csv('data/pdl_1.csv')
+df2 = pd.read_csv('data/pdl_2.csv')
 
 #Scikit-Learn
 
