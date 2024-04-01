@@ -35,7 +35,7 @@ def main():
 
 
     #Prévision des séries temporelles
-    st.subheader("Prévision des séries temporelles")
+    st.subheader("Affichage de la série temporelle de consommation")
 
     df.plot(style='.',
             figsize=(15, 5),
@@ -135,7 +135,7 @@ def main():
     st.write("Pour éviter le surapprentissage, je place le taux d'apprentissage à 0.01")
 
     #Importance des variables
-    st.subheader("Importance des variables")
+    st.subheader("Importance des variables dans le modèle")
 
     fi = pd.DataFrame(data=reg.feature_importances_,
              index=reg.feature_names_in_,
